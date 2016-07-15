@@ -20,9 +20,4 @@ public class MediaController {
         return mediaService.getImagesByUser(userId);
     }
 
-    @RequestMapping(method = RequestMethod.GET)
-    public Image getImage(@RequestParam Long imageId){
-        return mediaService.getImage(imageId);
-    }
-
 }
